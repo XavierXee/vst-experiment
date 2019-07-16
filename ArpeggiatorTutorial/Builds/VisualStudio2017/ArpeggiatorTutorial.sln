@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2017
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArpeggiatorTutorial - Standalone Plugin", "ArpeggiatorTutorial_StandalonePlugin.vcxproj", "{35331563-FEE9-9A5E-75A0-6BF73F5F2EA2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{77D0A39D-3CBC-271A-FE64-3D13E0B27A8A} = {77D0A39D-3CBC-271A-FE64-3D13E0B27A8A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArpeggiatorTutorial - VST3", "ArpeggiatorTutorial_VST3.vcxproj", "{9A695457-0AE4-0905-0264-0FCD01E09CC4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{77D0A39D-3CBC-271A-FE64-3D13E0B27A8A} = {77D0A39D-3CBC-271A-FE64-3D13E0B27A8A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArpeggiatorTutorial - Shared Code", "ArpeggiatorTutorial_SharedCode.vcxproj", "{77D0A39D-3CBC-271A-FE64-3D13E0B27A8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A695457-0AE4-0905-0264-0FCD01E09CC4}.Debug|x64.ActiveCfg = Debug|x64
+		{9A695457-0AE4-0905-0264-0FCD01E09CC4}.Debug|x64.Build.0 = Debug|x64
+		{9A695457-0AE4-0905-0264-0FCD01E09CC4}.Release|x64.ActiveCfg = Release|x64
+		{9A695457-0AE4-0905-0264-0FCD01E09CC4}.Release|x64.Build.0 = Release|x64
+		{35331563-FEE9-9A5E-75A0-6BF73F5F2EA2}.Debug|x64.ActiveCfg = Debug|x64
+		{35331563-FEE9-9A5E-75A0-6BF73F5F2EA2}.Debug|x64.Build.0 = Debug|x64
+		{35331563-FEE9-9A5E-75A0-6BF73F5F2EA2}.Release|x64.ActiveCfg = Release|x64
+		{35331563-FEE9-9A5E-75A0-6BF73F5F2EA2}.Release|x64.Build.0 = Release|x64
+		{77D0A39D-3CBC-271A-FE64-3D13E0B27A8A}.Debug|x64.ActiveCfg = Debug|x64
+		{77D0A39D-3CBC-271A-FE64-3D13E0B27A8A}.Debug|x64.Build.0 = Debug|x64
+		{77D0A39D-3CBC-271A-FE64-3D13E0B27A8A}.Release|x64.ActiveCfg = Release|x64
+		{77D0A39D-3CBC-271A-FE64-3D13E0B27A8A}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
